@@ -264,7 +264,7 @@ void exercicio7(){
         c128 = _mm_load_ps((float*) &c[i]);
         
         //verifica qual o maior entre o array e 1, evita divisões por 0
-        max128 = _mm_max_ps(b128, one128);
+        max128 = _mm_max_ps(c128, one128);
         
         a128 = _mm_div_ps(b128, max128);
         _mm_store_ps(&a[i], a128);
