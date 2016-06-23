@@ -123,7 +123,7 @@ void  exercicio4(){
     
     //carrega vetor
     for(i = 0; i < X; i++){
-        a[i] = i;
+        a[i] = 2;
     }
     
     __m128i a128;
@@ -249,7 +249,7 @@ void exercicio7(){
     printf("Exercicio 7\n");
     
     for(i = 0; i < X; i++){
-        b[i] = i;
+        b[i] = i+1;
         c[i] = i;
     }
     
